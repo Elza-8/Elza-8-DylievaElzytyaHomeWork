@@ -63,9 +63,9 @@ bool weekend = Weekend(day);
 if(day<8)
 {
 if(weekend == true)
-    Console.WriteLine("It's a weekday");
-else
     Console.WriteLine("It's a day of rest");
+else
+    Console.WriteLine("It's a weekday");
 
 }
 else
